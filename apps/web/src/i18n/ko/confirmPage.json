@@ -1,0 +1,15 @@
+{
+  "amount": "금액",
+  "autoConfirmNote": "배송 완료 후 7일이 경과한 주문은 자동으로 구매확정됩니다.",
+  "noOrders": "주문이 없습니다",
+  "orderDate": "주문일",
+  "orderNumber": "주문번호",
+  "otherItems_other": "외 {{count}}건",
+  "product": "상품",
+  "statusConfirmed": "구매확정",
+  "statusLabel": "상태",
+  "statusWaiting": "확정 대기",
+  "tabConfirmed": "구매확정 완료",
+  "tabDelivered": "배송완료",
+  "title": "주문 확정 관리"
+}

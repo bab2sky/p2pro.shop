@@ -1,0 +1,26 @@
+{
+  "title": "Admin",
+  "dashboard": "Dashboard",
+  "products": "Products",
+  "orders": "Orders",
+  "users": "Users",
+  "sellers": "Sellers",
+  "categories": "Categories",
+  "txid": "TXID Verification",
+  "withdrawals": "Withdrawals",
+  "disputes": "Disputes",
+  "logs": "Admin Logs",
+  "notices": "Notices",
+  "banners": "Banners",
+  "faq": "FAQ",
+  "settings": {
+    "title": "System Settings",
+    "commissionRate": "Commission Rate (%)",
+    "autoConfirmDays": "Auto Confirm Period (days)",
+    "txidTimeoutHours": "TXID Timeout (hours)",
+    "minWithdrawal": "Min Withdrawal (USDT)",
+    "withdrawalFeeRate": "Withdrawal Fee Rate (%)",
+    "disputeDeadlineDays": "Dispute Deadline (days)",
+    "saved": "Settings saved successfully"
+  }
+}

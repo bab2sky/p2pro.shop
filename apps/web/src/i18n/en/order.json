@@ -1,0 +1,78 @@
+{
+  "title": "Orders",
+  "detail": "Order details",
+  "orderNumber": "Order number",
+  "status": "Status",
+  "totalAmount": "Total",
+  "createdAt": "Order date",
+  "payment": {
+    "title": "Payment",
+    "txid": "Enter TXID",
+    "walletAddress": "Deposit wallet address",
+    "submit": "Confirm payment",
+    "guide": "Payment guide",
+    "amount": "Amount",
+    "network": "Network",
+    "deadline": "Payment deadline",
+    "warning": "Please send the exact amount",
+    "page": {
+      "title": "USDT escrow payment",
+      "ariaLabel": "USDT escrow payment",
+      "orderNumber": "Order #",
+      "selectNetwork": "Select payment network",
+      "networkSwitching": "Switching network...",
+      "networkNotConfigured": "{{network}} (wallet not configured)",
+      "networkDescTrc20": "TRON (low fees)",
+      "networkDescErc20": "Ethereum (high security)",
+      "networkDescBep20": "BNB Chain (low fees)",
+      "txidLabel": "Enter TXID",
+      "txidGuide": "After sending USDT from MetaMask or similar wallet, paste the Transaction ID (TXID) below.",
+      "txidPlaceholderTrc": "Enter transaction hash",
+      "submitButton": "Submit TXID",
+      "submitting": "Submitting...",
+      "submitSuccess": "TXID received. Payment will be confirmed after admin verification.",
+      "submitFail": "Failed to submit TXID. Please check the format.",
+      "networkChanged": "Payment network changed.",
+      "networkChangeFail": "Failed to change network.",
+      "orderNotFound": "Order not found.",
+      "alreadyProcessed": "This order has already been processed.",
+      "viewOrderDetail": "View order detail"
+    }
+  },
+  "shipping": {
+    "title": "Shipping info",
+    "trackingNumber": "Tracking number",
+    "carrier": "Carrier"
+  },
+  "confirm": "Confirm receipt",
+  "cancel": "Cancel order",
+  "dispute": "Open dispute",
+  "dateFilter": {
+    "week": "1 week",
+    "month": "1 month",
+    "threeMonths": "3 months",
+    "sixMonths": "6 months",
+    "custom": "Custom",
+    "from": "From",
+    "to": "To"
+  },
+  "list": {
+    "title": "Orders",
+    "noOrders": "No orders yet",
+    "orderNumber": "Order number",
+    "orderDate": "Order date",
+    "totalAmount": "Total"
+  },
+  "detail2": {
+    "title": "Order details",
+    "status": "Status",
+    "paymentInfo": "Payment info",
+    "shippingInfo": "Shipping info",
+    "txidInput": "Enter TXID",
+    "txidPlaceholder": "Enter transaction hash",
+    "submitTxid": "Submit TXID",
+    "confirmDelivery": "Confirm receipt",
+    "fileDispute": "Open dispute",
+    "trackShipping": "Track shipping"
+  }
+}

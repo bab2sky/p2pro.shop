@@ -1,0 +1,79 @@
+{
+  "detail": {
+    "back": "뒤로가기",
+    "title": "환불 상세",
+    "notFound": "환불 요청을 찾을 수 없습니다.",
+    "timeline": {
+      "title": "처리 현황",
+      "request": "환불 요청",
+      "sellerApprove": "판매자 승인",
+      "sellerReject": "판매자 거절",
+      "sellerAutoApprove": "자동 승인 (판매자 미응답)",
+      "adminApprove": "관리자 환불 처리",
+      "adminReject": "관리자 거절"
+    },
+    "info": {
+      "title": "환불 정보",
+      "orderNumber": "주문번호",
+      "orderTotal": "주문 금액",
+      "reason": "환불 사유",
+      "details": "상세 사유",
+      "requestedAt": "요청일"
+    },
+    "evidence": {
+      "title": "증거 이미지",
+      "alt": "증거 {{n}}"
+    },
+    "seller": {
+      "title": "판매자 응답",
+      "response": "응답",
+      "approve": "승인",
+      "autoApprove": "자동 승인",
+      "reject": "거절",
+      "rejectReason": "거절 사유",
+      "respondedAt": "응답일"
+    },
+    "admin": {
+      "title": "관리자 처리",
+      "type": "환불 유형",
+      "full": "전액 환불",
+      "partial": "부분 환불",
+      "amount": "환불 금액",
+      "note": "관리자 메모",
+      "processedAt": "처리일"
+    },
+    "rejectedNote": "판매자가 환불을 거절했습니다. 분쟁을 제기하여 관리자 중재를 받을 수 있습니다.",
+    "fileDispute": "분쟁 제기"
+  },
+  "request": {
+    "title": "환불 요청",
+    "back": "뒤로가기",
+    "reasonLabel": "환불 사유 *",
+    "reasonSelect": "사유를 선택해주세요",
+    "reason": {
+      "defective": "상품 불량/파손",
+      "wrong_item": "오배송 (잘못된 상품)",
+      "not_delivered": "상품 미도착",
+      "not_as_described": "상품 설명과 불일치",
+      "change_of_mind": "단순 변심",
+      "other": "기타"
+    },
+    "detailsLabel": "상세 설명 *",
+    "detailsPlaceholder": "환불 사유를 자세히 설명해주세요.",
+    "evidenceLabel": "증거 이미지 (최대 {{max}}장)",
+    "evidenceAlt": "증거 {{n}}",
+    "uploadingButton": "업로드 중...",
+    "addImage": "이미지 추가",
+    "evidenceHint": "상품 사진, 불량 부위 등 환불 사유를 증명할 수 있는 이미지를 첨부해주세요.",
+    "submit": "환불 요청",
+    "submitting": "요청 중...",
+    "autoApproveNote": "환불 요청 후 판매자가 3일 내 응답하지 않으면 자동 승인됩니다.",
+    "errors": {
+      "selectReason": "환불 사유를 선택해주세요.",
+      "enterDetails": "상세 사유를 입력해주세요.",
+      "maxImages": "최대 {{max}}장까지 첨부할 수 있습니다.",
+      "uploadFail": "이미지 업로드에 실패했습니다.",
+      "submitFail": "환불 요청 중 오류가 발생했습니다."
+    }
+  }
+}

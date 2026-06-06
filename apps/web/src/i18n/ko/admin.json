@@ -1,0 +1,26 @@
+{
+  "title": "관리자",
+  "dashboard": "대시보드",
+  "products": "상품 관리",
+  "orders": "주문 관리",
+  "users": "회원 관리",
+  "sellers": "판매자 관리",
+  "categories": "카테고리 관리",
+  "txid": "TXID 검증",
+  "withdrawals": "출금 관리",
+  "disputes": "분쟁 관리",
+  "logs": "관리 로그",
+  "notices": "공지사항",
+  "banners": "배너 관리",
+  "faq": "FAQ 관리",
+  "settings": {
+    "title": "시스템 설정",
+    "commissionRate": "거래 수수료율 (%)",
+    "autoConfirmDays": "자동 구매확정 기간 (일)",
+    "txidTimeoutHours": "TXID 입력 시한 (시간)",
+    "minWithdrawal": "최소 출금액 (USDT)",
+    "withdrawalFeeRate": "출금 수수료율 (%)",
+    "disputeDeadlineDays": "분쟁 신청 가능 기간 (일)",
+    "saved": "설정이 저장되었습니다"
+  }
+}

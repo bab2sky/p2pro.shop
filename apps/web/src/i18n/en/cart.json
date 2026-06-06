@@ -1,0 +1,25 @@
+{
+  "title": "Cart",
+  "empty": {
+    "title": "Your cart is empty",
+    "subtitle": "Add some items you'd like to buy",
+    "cta": "Continue shopping"
+  },
+  "header": {
+    "totalItems": "{{count}} items total"
+  },
+  "subtotal": "Subtotal",
+  "shippingFee": "Shipping",
+  "summary": {
+    "title": "Order summary",
+    "itemTotal": "Item total",
+    "shipping": "Shipping",
+    "discount": "Discount",
+    "grandTotal": "Total",
+    "checkout": "Checkout"
+  },
+  "item": {
+    "remove": "Remove",
+    "quantity": "Quantity"
+  }
+}

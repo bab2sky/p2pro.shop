@@ -1,0 +1,83 @@
+/* Pretendard font is loaded via <link> in index.html to avoid render-blocking @import */
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* 커스텀 유틸리티 */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* 기본 폰트 설정 */
+html {
+  font-family: 'Pretendard', system-ui, -apple-system, sans-serif;
+}
+
+/* 브라우저 autofill 배경색 오버라이드 */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #f3f4f6 inset;
+  -webkit-text-fill-color: #111827;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+@media (prefers-color-scheme: dark) {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #1f2937 inset;
+    -webkit-text-fill-color: #f3f4f6;
+  }
+}
+
+/* TipTap 에디터 placeholder */
+.tiptap p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #9ca3af;
+  pointer-events: none;
+  height: 0;
+}
+
+/* TipTap 에디터 기본 스타일 */
+.tiptap {
+  font-size: 0.875rem;
+}
+
+.tiptap:focus {
+  outline: none;
+}
+
+/* YouTube 임베드 (에디터 + 렌더링 공통) */
+div[data-youtube-video],
+.prose div[data-youtube-video] {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  margin: 0.75rem 0;
+}
+
+div[data-youtube-video] iframe,
+.prose div[data-youtube-video] iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 0.75rem;
+}
+
+/* prose 안에서 iframe 제한 해제 */
+.prose iframe {
+  max-width: 100%;
+}

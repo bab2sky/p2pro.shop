@@ -1,0 +1,22 @@
+{
+  "title": "Disputes",
+  "create": "Open Dispute",
+  "detail": "Dispute Detail",
+  "type": "Dispute Type",
+  "reason": "Reason",
+  "evidence": "Evidence",
+  "status": {
+    "open": "Open",
+    "in_review": "In Review",
+    "resolved": "Resolved",
+    "closed": "Closed"
+  },
+  "resolution": {
+    "buyerWin": "Buyer Wins",
+    "sellerWin": "Seller Wins",
+    "partialRefund": "Partial Refund",
+    "mutualAgreement": "Mutual Agreement"
+  },
+  "chat": "Chat",
+  "sendMessage": "Send Message"
+}

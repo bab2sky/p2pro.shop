@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e"/>
+      <stop offset="50%" style="stop-color:#155e75"/>
+      <stop offset="100%" style="stop-color:#1e3a5f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="c1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </radialGradient>
+    <radialGradient id="c2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgba(6,182,212,0.15)"/>
+      <stop offset="100%" style="stop-color:rgba(6,182,212,0)"/>
+    </radialGradient>
+    <linearGradient id="botFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:rgba(0,0,0,0)"/>
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0.3)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="200" cy="100" r="200" fill="url(#c1)" opacity="0.6"/>
+  <circle cx="1000" cy="300" r="250" fill="url(#c1)" opacity="0.4"/>
+  <circle cx="850" cy="80" r="150" fill="url(#c2)" opacity="0.5"/>
+  <circle cx="350" cy="320" r="120" fill="url(#c2)" opacity="0.3"/>
+
+  <!-- Diagonal stripes -->
+  <line x1="700" y1="0" x2="900" y2="400" stroke="rgba(255,255,255,0.05)" stroke-width="80"/>
+  <line x1="850" y1="0" x2="1050" y2="400" stroke="rgba(255,255,255,0.04)" stroke-width="60"/>
+  <line x1="1000" y1="0" x2="1200" y2="400" stroke="rgba(255,255,255,0.03)" stroke-width="40"/>
+
+  <!-- Store icons (abstract) -->
+  <g transform="translate(100, 120)" opacity="0.1">
+    <rect x="0" y="40" width="120" height="80" rx="8" fill="white"/>
+    <polygon points="0,40 60,0 120,40" fill="white"/>
+  </g>
+  <g transform="translate(1020, 60) scale(0.5)" opacity="0.12">
+    <rect x="0" y="40" width="120" height="80" rx="8" fill="#22d3ee"/>
+    <polygon points="0,40 60,0 120,40" fill="#22d3ee"/>
+  </g>
+  <g transform="translate(1060, 260) scale(0.35)" opacity="0.08">
+    <rect x="0" y="40" width="120" height="80" rx="8" fill="white"/>
+    <polygon points="0,40 60,0 120,40" fill="white"/>
+  </g>
+
+  <!-- Sparkle dots -->
+  <circle cx="280" cy="80" r="3" fill="white" opacity="0.4"/>
+  <circle cx="700" cy="130" r="2.5" fill="#22d3ee" opacity="0.4"/>
+  <circle cx="820" cy="310" r="3.5" fill="white" opacity="0.3"/>
+  <circle cx="600" cy="60" r="2" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="450" cy="340" r="2.5" fill="white" opacity="0.25"/>
+  <circle cx="1100" cy="170" r="3" fill="white" opacity="0.35"/>
+
+  <!-- Bottom darken -->
+  <rect x="0" y="200" width="1200" height="200" fill="url(#botFade)" opacity="0.3"/>
+</svg>

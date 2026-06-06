@@ -1,0 +1,36 @@
+{
+  "common": {
+    "home": "Home",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "search": "Search",
+    "mypage": "My Page",
+    "cart": "Cart",
+    "loading": "Loading..."
+  },
+  "auth": {
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "realName": "Full Name",
+    "nickname": "Nickname",
+    "phone": "Phone",
+    "referrerCode": "Referral Code",
+    "loginTitle": "Login",
+    "registerTitle": "Register",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "termsAgree": "I agree to the Terms of Service",
+    "privacyAgree": "I agree to the Privacy Policy",
+    "termsRequired": "Please agree to Terms of Service and Privacy Policy"
+  },
+  "nav": {
+    "products": "Products",
+    "categories": "Categories",
+    "sell": "Sell",
+    "orders": "Orders"
+  }
+}

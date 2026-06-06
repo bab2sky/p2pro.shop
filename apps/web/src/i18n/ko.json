@@ -1,0 +1,36 @@
+{
+  "common": {
+    "home": "홈",
+    "login": "로그인",
+    "register": "회원가입",
+    "logout": "로그아웃",
+    "search": "검색",
+    "mypage": "마이페이지",
+    "cart": "장바구니",
+    "loading": "로딩 중..."
+  },
+  "auth": {
+    "username": "아이디",
+    "email": "이메일",
+    "password": "비밀번호",
+    "realName": "실명",
+    "nickname": "닉네임",
+    "phone": "전화번호",
+    "referrerCode": "추천인 코드",
+    "loginTitle": "로그인",
+    "registerTitle": "회원가입",
+    "loginButton": "로그인",
+    "registerButton": "회원가입",
+    "noAccount": "계정이 없으신가요?",
+    "hasAccount": "이미 계정이 있으신가요?",
+    "termsAgree": "이용약관에 동의합니다",
+    "privacyAgree": "개인정보 처리방침에 동의합니다",
+    "termsRequired": "이용약관 및 개인정보 처리방침에 동의해주세요"
+  },
+  "nav": {
+    "products": "상품",
+    "categories": "카테고리",
+    "sell": "판매하기",
+    "orders": "주문내역"
+  }
+}

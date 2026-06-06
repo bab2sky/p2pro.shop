@@ -1,0 +1,58 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT\n          COUNT(*) FILTER (WHERE status = 'pending_payment') AS \"pending_payment!: i64\",\n          COUNT(*) FILTER (WHERE status = 'payment_verified') AS \"payment_verified!: i64\",\n          COUNT(*) FILTER (WHERE status = 'shipped') AS \"shipped!: i64\",\n          COUNT(*) FILTER (WHERE status = 'delivered') AS \"delivered!: i64\",\n          COUNT(*) FILTER (WHERE status = 'confirmed') AS \"confirmed!: i64\",\n          COUNT(*) AS \"total_orders!: i64\",\n          COALESCE(SUM(total_amount) FILTER (WHERE status != 'cancelled'), 0) AS \"total_spent!: BigDecimal\"\n        FROM orders WHERE buyer_id = $1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "pending_payment!: i64",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 1,
+        "name": "payment_verified!: i64",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 2,
+        "name": "shipped!: i64",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 3,
+        "name": "delivered!: i64",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 4,
+        "name": "confirmed!: i64",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 5,
+        "name": "total_orders!: i64",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 6,
+        "name": "total_spent!: BigDecimal",
+        "type_info": "Numeric"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "hash": "5383194c0de5760db5e8bc838a6708b5d1ac8ffe3dbabed4b3528f52934d69b5"
+}

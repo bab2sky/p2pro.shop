@@ -1,0 +1,22 @@
+{
+  "title": "분쟁",
+  "create": "분쟁 신청",
+  "detail": "분쟁 상세",
+  "type": "분쟁 유형",
+  "reason": "사유",
+  "evidence": "증거 자료",
+  "status": {
+    "open": "접수됨",
+    "in_review": "검토 중",
+    "resolved": "해결됨",
+    "closed": "종료"
+  },
+  "resolution": {
+    "buyerWin": "구매자 승",
+    "sellerWin": "판매자 승",
+    "partialRefund": "부분 환불",
+    "mutualAgreement": "상호 합의"
+  },
+  "chat": "채팅",
+  "sendMessage": "메시지 전송"
+}

@@ -1,0 +1,79 @@
+{
+  "detail": {
+    "back": "Back",
+    "title": "Refund detail",
+    "notFound": "Refund request not found.",
+    "timeline": {
+      "title": "Processing status",
+      "request": "Refund requested",
+      "sellerApprove": "Seller approved",
+      "sellerReject": "Seller rejected",
+      "sellerAutoApprove": "Auto-approved (no seller response)",
+      "adminApprove": "Refund processed by admin",
+      "adminReject": "Rejected by admin"
+    },
+    "info": {
+      "title": "Refund details",
+      "orderNumber": "Order #",
+      "orderTotal": "Order total",
+      "reason": "Refund reason",
+      "details": "Details",
+      "requestedAt": "Requested at"
+    },
+    "evidence": {
+      "title": "Evidence images",
+      "alt": "Evidence {{n}}"
+    },
+    "seller": {
+      "title": "Seller response",
+      "response": "Response",
+      "approve": "Approved",
+      "autoApprove": "Auto-approved",
+      "reject": "Rejected",
+      "rejectReason": "Reject reason",
+      "respondedAt": "Responded at"
+    },
+    "admin": {
+      "title": "Admin processing",
+      "type": "Refund type",
+      "full": "Full refund",
+      "partial": "Partial refund",
+      "amount": "Refund amount",
+      "note": "Admin note",
+      "processedAt": "Processed at"
+    },
+    "rejectedNote": "The seller rejected your refund. You can file a dispute for admin mediation.",
+    "fileDispute": "File a dispute"
+  },
+  "request": {
+    "title": "Request refund",
+    "back": "Back",
+    "reasonLabel": "Refund reason *",
+    "reasonSelect": "Select a reason",
+    "reason": {
+      "defective": "Defective / damaged",
+      "wrong_item": "Wrong item shipped",
+      "not_delivered": "Item not delivered",
+      "not_as_described": "Not as described",
+      "change_of_mind": "Changed my mind",
+      "other": "Other"
+    },
+    "detailsLabel": "Details *",
+    "detailsPlaceholder": "Describe your refund reason in detail.",
+    "evidenceLabel": "Evidence images (up to {{max}})",
+    "evidenceAlt": "Evidence {{n}}",
+    "uploadingButton": "Uploading...",
+    "addImage": "Add image",
+    "evidenceHint": "Attach photos showing the issue (product, damage, etc.) to support your refund request.",
+    "submit": "Request refund",
+    "submitting": "Submitting...",
+    "autoApproveNote": "If the seller doesn't respond within 3 days, the refund is auto-approved.",
+    "errors": {
+      "selectReason": "Please select a refund reason.",
+      "enterDetails": "Please enter the details.",
+      "maxImages": "You can attach up to {{max}} images.",
+      "uploadFail": "Image upload failed.",
+      "submitFail": "An error occurred while submitting your refund request."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: p2pro
+      POSTGRES_PASSWORD: p2pro_dev
+      POSTGRES_DB: p2pro_store
+      # dev 환경도 prod 와 동일하게 UTC. local TZ 차이로 인한 미묘한 버그 차단.
+      TZ: UTC
+      PGTZ: UTC
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    environment:
+      TZ: UTC
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+
+volumes:
+  pgdata:
+  redisdata:

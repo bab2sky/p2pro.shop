@@ -1,0 +1,12 @@
+{
+  "cancelled": "Cancelled",
+  "confirmed": "Confirmed",
+  "delivered": "Delivered",
+  "disputed": "Disputed",
+  "paymentVerified": "Payment verified",
+  "pendingPayment": "Pending payment",
+  "refunded": "Refunded",
+  "shipped": "Shipped",
+  "txidSubmitted": "TXID submitted",
+  "verifying": "Verifying"
+}

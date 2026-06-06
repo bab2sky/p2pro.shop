@@ -1,0 +1,25 @@
+{
+  "title": "장바구니",
+  "empty": {
+    "title": "장바구니가 비어있습니다",
+    "subtitle": "마음에 드는 상품을 담아보세요",
+    "cta": "쇼핑하러 가기"
+  },
+  "header": {
+    "totalItems": "총 {{count}}개의 상품"
+  },
+  "subtotal": "소계",
+  "shippingFee": "배송비",
+  "summary": {
+    "title": "결제 요약",
+    "itemTotal": "상품 합계",
+    "shipping": "배송비",
+    "discount": "할인",
+    "grandTotal": "총 결제금액",
+    "checkout": "결제하기"
+  },
+  "item": {
+    "remove": "삭제",
+    "quantity": "수량"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "amount": "Amount",
+  "autoConfirmNote": "Orders are automatically confirmed 7 days after delivery.",
+  "noOrders": "No orders found",
+  "orderDate": "Order date",
+  "orderNumber": "Order number",
+  "otherItems_one": "+{{count}} more",
+  "otherItems_other": "+{{count}} more",
+  "product": "Product",
+  "statusConfirmed": "Confirmed",
+  "statusLabel": "Status",
+  "statusWaiting": "Pending confirmation",
+  "tabConfirmed": "Confirmed",
+  "tabDelivered": "Delivered",
+  "title": "Order confirmation"
+}

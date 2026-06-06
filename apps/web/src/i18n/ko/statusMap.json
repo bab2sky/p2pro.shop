@@ -1,0 +1,12 @@
+{
+  "cancelled": "취소됨",
+  "confirmed": "구매확정",
+  "delivered": "배송완료",
+  "disputed": "분쟁중",
+  "paymentVerified": "결제 확인됨",
+  "pendingPayment": "결제 대기",
+  "refunded": "환불됨",
+  "shipped": "배송중",
+  "txidSubmitted": "TXID 제출됨",
+  "verifying": "확인 중"
+}
