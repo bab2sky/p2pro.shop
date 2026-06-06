@@ -2,7 +2,7 @@
 
 이 저장소는 P2PRO Store 순수 소스코드 전달본입니다.
 
-프론트엔드는 TypeScript/React, 백엔드는 Rust로 구성되어 있습니다. 운영 서버 자동 설치는 별도 패키지인 `handover-autoinstall-clean.zip`을 사용하고, 이 저장소는 소스 확인, 개발, 수정, 직접 빌드를 위한 용도입니다.
+프론트엔드는 TypeScript/React, 백엔드는 Rust로 구성되어 있습니다. 이 저장소는 소스 확인, 개발, 수정, 직접 실행 및 빌드를 위한 용도입니다.
 
 ## 1. 공통 준비
 
@@ -112,7 +112,7 @@ cd packages/backend
 cargo build --release
 ```
 
-## 9. 운영 설치
+## 9. 운영 배포 참고
 
 이 저장소에는 순수 소스코드만 포함되어 있습니다. 아래 항목은 포함하지 않았습니다.
 
@@ -125,8 +125,11 @@ cargo build --release
 - `dist/`
 - `target/`
 
-운영 서버에 바로 설치하려면 소스 저장소가 아니라 운영 설치 패키지를 사용합니다.
+따라서 이 저장소만으로 운영 배포를 진행하려면 운영 환경에 맞게 아래 항목을 별도로 준비해야 합니다.
 
-```text
-handover-autoinstall-clean.zip
-```
+- 운영 환경변수
+- PostgreSQL / Redis
+- 프론트엔드 정적 파일 빌드 및 서빙 방식
+- Rust 백엔드 빌드 및 실행 방식
+- HTTPS reverse proxy
+- 프로세스 관리 또는 컨테이너 실행 구성
